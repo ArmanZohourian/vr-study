@@ -31,3 +31,4 @@ html[lang=de] [data-l=de],html[lang=en] [data-l=en]{display:revert}
 .video-missing{display:none;position:absolute;inset:0;align-items:center;justify-content:center;color:var(--muted);border:2px dashed var(--line);border-radius:10px}
 .video.empty video{display:none}
 .video.empty .video-missing{display:flex}
+html{scroll-behavior:smooth}
