@@ -1,6 +1,6 @@
 // ===== CONFIG: fill these in =====
 // Cal.com booking link, e.g. "arman/vr-study" (from https://cal.com/arman/vr-study)
-const CAL_LINK = "arman-zohourian-zailvo/xspace-game-lab-group-room-50";
+const CAL_LINK = "arman-zohourian-zailvo/15-min-24-nov";
 // ==================================
 (function(){
   let lang;
@@ -13,7 +13,7 @@ const CAL_LINK = "arman-zohourian-zailvo/xspace-game-lab-group-room-50";
     set(lang);
     const box=document.getElementById("cal");
     if(box && CAL_LINK){
-      box.innerHTML='<iframe title="Booking" loading="lazy" src="https://cal.com/'+CAL_LINK+'?embed=true&layout=month_view&date=2026-11-20"></iframe>';
+      box.innerHTML='<iframe title="Booking" loading="lazy" src="https://cal.com/'+CAL_LINK+'?embed=true&layout=month_view&date=2026-11-24"></iframe>';
     }
   });
   document.documentElement.lang=lang;
